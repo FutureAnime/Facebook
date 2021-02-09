@@ -1,0 +1,197 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+
+body{
+   overflow: hidden;
+   box-sizing: border-box;
+   background: #fff;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   font-family: sans-serif;
+   min-height: 100vh;
+}
+
+/*-- top tittle  --*/
+
+.top{
+   position: relative;
+   width: 100%;
+   padding: 14px 0;
+   border-bottom: 1px solid #878888;
+}
+
+
+.top h4{
+   text-align: center;
+   color: #878888;
+}
+
+
+/*-- inputs (1)  --*/
+
+
+
+.input-box{
+   position: relative;
+}
+
+
+.input-box input{
+   position: relative;
+   width: 97%;
+   left: 50%;
+   transform: translate(-50%);
+   padding: 10px 0;
+   outline: none;
+   border: 1px solid #3F93E1;
+   font-size: 16px;
+   text-align: center;
+   background: #f1f1f1;
+}
+
+.input-box h4{
+   position: relative;
+   left: 8px;
+   padding: 7px 0px;
+   font-size: 14px;
+   font-weight: 410;
+   color: #23282D;
+}
+
+
+/*-- submit button --*/
+
+
+.submit-btn{
+   position: relative;
+   display: block;
+}
+
+.submit-btn input{
+   position: relative;
+   width: 97%;
+   padding: 10px 0;
+   border: none;
+   left: 50%;
+   transform: translate(-50%);
+   outline: none;
+   background: #3F93E1;
+   margin: 8px auto;
+   font-size: 16px;
+   text-align: center;
+   font-weight: 400;
+   color: #fff;
+}
+
+
+.submit-btn input:active{
+   background: #2069AD;
+}
+
+
+.submit-btn a{
+   position: relative;
+   font-size: 15px;
+   color: #2069AD;
+   margin-left: 7px;
+   letter-spacing: 0.3px;
+   text-decoration: none;
+}
+
+
+.center{
+   position: relative;
+   display: flex;
+   margin: 30px 0 15px 0;
+   width: 80%;
+   padding: none;
+   left: 50%;
+   transform: translate(-50%);
+   background: transparent;
+}
+
+
+.center hr{
+   position: relative;
+   width: 140px;
+   height: 0;
+   left: 50px;
+   transform: translate(-50px);
+   margin: 10px auto;
+   opacity: 0.6;
+}
+
+
+.center p{
+   font-size: 15px;
+   margin: 0 7px 0 7px;
+   font-weight: 450;
+}
+
+
+/* --- New account btn ---*/
+
+
+.new-acc{
+   position: relative;
+}
+
+
+.new-acc input{
+   position: relative;
+   width: 40%;
+   padding: 10px 0;
+   border: none;
+   left: 50%;
+   transform: translate(-50%);
+   outline: none;
+   background: #0C8D10;
+   font-size: 14px;
+   text-align: center;
+   font-weight: 400;
+   color: #fff;
+}
+
+
+.new-acc input:active{
+   background: #135C15;
+}
+
+
+/* --- languages --- */
+
+.languages{
+   position: relative;
+   margin: 25px 0 0 0;
+}
+
+
+.languages a{
+   position: relative;
+   display: block;
+   text-align: left;
+   left: 7px;
+   text-decoration: none;
+   font-weight: 400;
+   font-size: 14px;
+   padding: 10px 10px;
+}
+
+
+.languages a:nth-child(1){
+   color: #23282D;
+}
+
+
+.languages a:nth-child(2){
+   color: #0A7AB6;
+   width: 60px;
+}
+
+
+.languages a:nth-child(3) {
+   color: #0A7AB6;
+}
